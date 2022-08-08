@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.hide{
+    display: none;
+}
+.car{
+    background-image: url('/assets/car_2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 85px;
+    position: absolute;
+    bottom: 100px;
+    left: 18px;
+    
+    
+}
+.gameplayBoard{
+    width: 470px;
+    height: 100vh;
+    background: #2d2d22;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+
+}
+.lines{
+    width: 10px;
+    height: 100px;
+    position: absolute;
+    background: white;
+    margin-left: 230px;
+}
+.sidelines{
+    width: 10px;
+    height: 110px;
+    position: absolute;
+    background: rgb(238, 255, 2);
+    margin-left: 2%;
+}
+.sidelinesright{
+    width: 10px;
+    height: 110px;
+    position: absolute;
+    background: rgb(238, 255, 2);
+    margin-left: 96%;
+}
+.enemycar{
+    background-image: url('/assets/enemycar.png');
+    background-repeat: no-repeat;
+    align-content: center;
+    width: 50px;
+    justify-content: center;
+    height: 100px;
+    border-end-end-radius: 25%;
+    border-end-start-radius: 25%;
+    border-end-start-radius: 25%;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    position: absolute;
+    bottom: 900px;
+}
+.score{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    background-color: #4a47e2;
+    color: white;
+    width: 300px;
+    line-height: 70px;
+    font-size: 1.5em;
+    font-family: fantasy;
+    text-align: center;
+    box-shadow: 0 5px 5px #777;
+}
+.startGame{
+    position: absolute;
+    background-color: #4a47e2;
+    left: 50%;
+    top: 50%;
+    border: 2px solid white;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 1;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+    width: 50%;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 5;
+    font-size: 20px;
+    word-spacing: 3;
+    line-height: 30px;
+    text-transform: capitalize;
+    box-shadow: 0 5px 5px #777;
+}
+.game{
+    background-color: rgb(190, 177, 201);
+}
